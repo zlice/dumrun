@@ -636,7 +636,7 @@ int main(int argc, char ** argv) {
             32, PropModeReplace, (unsigned char *)&hints, 5);
 
   // set title
-  XStoreName(disp, xwin, "nywrun");
+  XStoreName(disp, xwin, "dumrun");
 
   ///////////////////////// create surface buffer
   const int size = arg_width * 4 * arg_height; // 4 = ARGB
