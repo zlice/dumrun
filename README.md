@@ -1,4 +1,4 @@
-# dumrum
+# dumrun
 
 Simple stupid ascii character only run-launcher.
 
