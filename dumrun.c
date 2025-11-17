@@ -585,7 +585,9 @@ int main(int argc, char ** argv) {
        "\t-F : font name (searches directories in /usr/share/fonts)\n"
        "\t-H : window height (default/minimum is set by font size. rest is padding)\n"
        "\t-W : window width (default: ridiculous)\n" , argv[0]);
-       exit(0);
+       if (opt == 'h')
+         exit(0);
+       exit(1);
     } // switch opt
   } // while getopts
   // this is needed to set minimum height
